@@ -1,0 +1,10 @@
+<h2>{{nombreAuto}}</h2>
+<input type="text" [(ngModel)] ="nombreAuto"/>
+<div *ngIf="nombreAuto==='Altima'">
+<strong>Hola Mundo</strong>
+</div>
+<ul>
+   <li *ngFor="let auto of listaAutos">
+        {{auto}}
+   </li> 
+</ul>
