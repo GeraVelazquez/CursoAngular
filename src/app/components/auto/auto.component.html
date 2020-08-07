@@ -1,4 +1,14 @@
-<h2>{{ auto.nombre }}</h2>
-<p>{{ auto.descripcion }}</p>
-<img [src]="auto.imagen" />
-<button (click)="comprar(auto.nombre)">Comprar</button>
+<div class="column-1">
+  <img [src]="auto.imagen" />
+</div>
+<div class="column-2">
+  <div class="row-i">
+    <h2>{{ auto.nombre }}</h2>
+  </div>
+  <div class="row-i">
+    <p style="width: max-content;">{{ auto.descripcion }}</p>
+  </div>
+</div>
+<div class="column-3">
+  <button class="button" (click)="comprar(auto.nombre)">Comprar</button>
+</div>
