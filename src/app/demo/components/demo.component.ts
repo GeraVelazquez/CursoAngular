@@ -11,7 +11,6 @@ export class DemoComponent {
   listaAutos: string[];
   constructor(){
     this.nombreAuto = 'Altima';
-    this.listaAutos = ['Auto1','Auto2','Auto3'];
- 
+    this.listaAutos = ['Auto1','Auto2','Auto3']; 
   }
 }

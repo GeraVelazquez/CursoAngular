@@ -7,6 +7,7 @@ import {
 } from '@angular/core';
 import { Auto } from 'src/app/auto.model';
 
+
 @Component({
   selector: 'app-autos',
   templateUrl: './autos.component.html',
